@@ -401,8 +401,13 @@ notebook header tabs tab {
     padding: 0px 4px;
 }
 
+notebook > stack > widget > box {
+    margin: 2px 1px;
+}
+
 notebook > stack > widget > box > scrolledwindow {
-    margin: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 notebook > stack > widget > box > scrolledwindow > treeview > header > button {
@@ -411,15 +416,24 @@ notebook > stack > widget > box > scrolledwindow > treeview > header > button {
 }
 
 notebook > stack > widget > box > label {
-    margin: 4px;
+    margin: 2px 4px;
 }
 
 notebook > stack > widget > box > box {
-    margin: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 notebook viewport.frame {
     padding: 4px;
+}
+
+notebook > header > button {
+  background-color: transparent;
+}
+
+GimpColorNotebook > notebook > stack, GimpColorHistory {
+  margin: 0px 6px;
 }
 
 /******** Miscellaneous ********/
