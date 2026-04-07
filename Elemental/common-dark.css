@@ -430,6 +430,11 @@ notebook header tabs tab:hover {
 notebook > stack {
   padding-top: 2px;
 }
+
+window.background > box > box > paned > paned > notebook > stack {
+    padding-top: 0px;
+}
+
 /******** Splash ********/
 
 progress {
