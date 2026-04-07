@@ -389,6 +389,11 @@ GimpFileDialog actionbar {
     border-top: 1px solid @border;
 }
 
+GimpFileDialog  #pathbarbox{
+    background-color: @background-2;
+    border-bottom: 1px solid @background-1;
+}
+
 widget.view {
     background-color: @background-2;
     border: 1px solid @border;

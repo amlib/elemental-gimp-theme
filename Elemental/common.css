@@ -352,7 +352,7 @@ GimpFileDialog placessidebar list row {
     padding: 0px 12px;
 }
 
-GimpFileDialog placessidebar list row image {
+GimpFileDialog placessidebar list row image.sidebar-icon {
     padding-right: 8px;
 }
 
@@ -376,6 +376,15 @@ GimpFileDialog .path-bar button:last-child {
 
 GimpFileDialog .frame {
     border-width: 0px;
+}
+
+GimpFileDialog > box > filechooser box > treeview.view {
+  padding: 0px;
+  margin: 0px;
+}
+
+GimpFileDialog > box > filechooser box > box > stack {
+  margin-right: -10px;
 }
 
 widget.view {
