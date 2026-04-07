@@ -103,6 +103,19 @@ button {
     padding: 0px 8px;
 }
 
+button > label {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+button > box > image {
+    margin-left: 4px;
+}
+
+button > box > label {
+    margin-right: 4px;
+}
+
 .flat {
     background-color: transparent;
     padding: 0px;
