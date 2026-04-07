@@ -354,6 +354,24 @@ GimpDisplayShell grid {
     background-color: @background-1;
 }
 
+GimpDisplayShell grid > button.flat {
+    background-color: @background-3;
+}
+
+GimpDisplayShell grid > button.flat:checked {
+    background-color: @background-primary;
+    border: 1px solid @border-primary;
+}
+
+GimpDisplayShell grid > button.flat:checked:hover {
+    background-color: @hover-primary;
+    border: 1px solid @border-primary;
+}
+
+GimpDisplayShell grid > widget {
+  background-color: @background-3;
+}
+
 GimpRuler {
     background-color: @background-3;
 }

@@ -326,15 +326,16 @@ treeview header button:last-child:hover {
 
 /******** Gimp Display Shell ********/
 
-GimpDisplayShell grid > button {
+GimpDisplayShell grid > button.flat {
     min-height: 12px;
     min-width: 12px;
+    padding: 1px;
 }
 
 /******** Status Bar ********/
 
 statusbar {
-    padding: 2px 0px;
+    padding: 2px 4px;
 }
 
 statusbar .linked entry {
