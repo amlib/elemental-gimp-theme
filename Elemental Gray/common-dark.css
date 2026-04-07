@@ -34,7 +34,7 @@ selection {
 
 /******** Window ********/
 
-window, dialog, GimpFileDialog, GimpToolDialog, messagedialog {
+window, dialog, GimpFileDialog, GimpToolDialog, messagedialog, GimpViewableDialog {
     background-color: @background-3;
 }
 
@@ -197,6 +197,10 @@ switch:checked slider {
 entry, entry.flat {
     background-color: @background-4;
     border: 1px solid @border-control;
+}
+
+entry.cell {
+    background-color: @background-4;
 }
 
 entry:focus {
