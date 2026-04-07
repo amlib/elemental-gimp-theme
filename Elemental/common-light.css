@@ -403,6 +403,11 @@ widget.view {
     border: 1px solid @border;
 }
 
+GimpOverlayDialog {
+    background-color: @background-1;
+    border: solid 1px @gray-40;
+}
+
 /******** Notebook ********/
 
 notebook {
