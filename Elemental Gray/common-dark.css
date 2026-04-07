@@ -52,11 +52,14 @@ headerbar {
 /******** Separator ********/
 
 separator {
-    background-color: @border;
+    background-color: transparent;
+    border-bottom: solid @border 1px;
 }
 
 paned > separator {
-    background-color: @border;
+    background-color: @background-3;
+    border-bottom: solid @border-control 1px;
+    border-right: solid @border-control 1px;
 }
 
 /******** Tooltip ********/

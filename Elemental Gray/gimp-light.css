@@ -29,8 +29,8 @@
 @define-color background-selection      @primary-light-50;
 @define-color background-primary        @gray-20;
 
-@define-color border                    @gray-20;
-@define-color border-control            @gray-20;
+@define-color border                    @gray-15;
+@define-color border-control            @gray-15;
 @define-color border-control-hover      @gray-30;
 @define-color border-disabled           @gray-20;
 @define-color border-primary            @gray-40;

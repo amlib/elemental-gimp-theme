@@ -68,8 +68,8 @@ separator {
 }
 
 paned > separator {
-    min-width: 2px;
-    min-height: 2px;
+    min-width: 1px;
+    min-height: 1px;
 }
 
 /******** Tooltip ********/
