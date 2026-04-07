@@ -47,7 +47,7 @@ headerbar {
 
 .minimize, .maximize, .close {
     padding: 0px;
-    border: none;
+    border: solid 1px transparent;
     background-color: transparent;
 }
 

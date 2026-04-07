@@ -45,6 +45,10 @@ headerbar {
     border-bottom: 1px solid @border;
 }
 
+.minimize:hover, .maximize:hover, .close:hover {
+    border: solid 1px @background-1;
+}
+
 /******** Separator ********/
 
 separator {
